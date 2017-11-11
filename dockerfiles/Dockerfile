@@ -1,6 +1,8 @@
 FROM ubuntu:xenial
 
+RUN echo test
 RUN apt-get update -y
+RUN echo test
 RUN apt-get install -y curl
 
 RUN curl -O https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
